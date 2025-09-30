@@ -25,5 +25,11 @@ require('packer').startup(function(use)
     run = ':TSUpdate'
   }
 
+  -- Fuzzy finder
+  use {
+    'nvim-telescope/telescope.nvim',
+    requires = { 'nvim-lua/plenary.nvim' }
+  }
+
 end)
 

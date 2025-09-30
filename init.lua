@@ -3,6 +3,9 @@
 -- Load plugins
 require('plugins')
 
+-- Set leader key
+vim.g.mapleader = ' '
+
 -- Set the cursor style for different modes with blinking
 vim.opt.guicursor = {
     "n-v-c-sm:block-blinkon0",
@@ -37,4 +40,7 @@ require('lsp')
 
 -- Treesitter configuration
 require('treesitter-config')
+
+-- Telescope (fuzzy finder) configuration
+require('telescope-config')
 
