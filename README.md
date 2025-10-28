@@ -1,1 +1,1 @@
-My vim and neovim lua config.
+My Neovim lua config.
